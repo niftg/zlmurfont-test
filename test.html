@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<title>Zbalermorna Upright フォント試し打ち</title>
+<link href="github-markdown-nomdbody.css" rel="stylesheet" type="text/css"/>
+<style>
+@font-face {
+    font-family: zlm;
+    src: url(https://jackhumbert.github.io/zbalermorna-upright-font/zbalermorna_upright.woff2);
+}
+.zlm {font-family: zlm; font-size: 3em; background-color: #fff;}
+span.zlm {font-size:1.5em;}
+</style>
+<h1><a href="https://github.com/jackhumbert/zbalermorna-upright-font">Zbalermorna Upright</a> フォント試し打ち</h1>
+<p class="zlm">coirodo mi'e la .niftyg. ki'e le finti be tinoi lertaivei bakfu fa'o</p>
+
+<h2>フォント情報</h2>
+<dl>
+<dt>Zbalermorna Upright<dt>
+  <dd>
+    <ul>
+      <li><a href="https://jackhumbert.com">Jack Humbert</a> 氏制作。<a href="https://jackhumbert.github.io/zbalermorna-upright-font/">その場でフォントを試せるデモページ</a>あり。</li>
+      <li>もちろん、Kmir氏の<a href="https://mw.lojban.org/papri/zbalermorna">zbalermorna</a>表記用フォント。（一部未実装）</li>
+      <li><a href="https://www.reddit.com/r/lojban/comments/93u9l4/zbalermorna_upright_font_text_is_editable/">今年(2018年)夏に発表された</a>。（ta'osai Twitterでは全然話題に上つてないみたいだつたが、ロジバンコミュニティのDiscordでは同時期にかなり反響を得てゐた…といふか制作者がそこで意見を募つてたりもしてた模様。）</li>
+      <li>仕組み的にはリガチャをふんだんに使用してゐるらしい。</li>
+    </ul>
+  </dd>
+</dl>
+
+<h2>試し打ち</h2>
+<p>現状、Edgeだと母音記号が全体的にずれてしまつて崩れる模様.u'anai</p>
+<h3>子音字</h3>
+<dl>
+  <dt><code>ptkflscm x bdgvrzjn qw</code></dt>
+  <dd><p class="zlm">ptkflscm x bdgvrzjn qw<p><p>(<a href="https://mw.lojban.org/papri/File:ZLM4_Writeup_v2.pdf">PDF</a>再現)</p></dd>
+  <dt><code>.':</code></dt><dd><p class="zlm">.':</p></dd>
+  <dt><code>'''''</code></dt><dd><p class="zlm">'''''</p></dd>
+</dl>
+<h3>+母音記号</h3>
+<dl>
+  <dt><code>patekifolusycaumai xei boidagevirozujynau qiwu</code></dt>
+  <dd><p class="zlm">patekifolusycaumai xei boidagevirozujynau qiwu</p><p><code>q</code><code>w</code>は母音記号との位置関係未調整かな。<code>p</code><code>b</code>も少し気になりはじめた。</p></dd>
+  <dt><code>.a.e.i.o.u.y.au.ai.ei.oi'a'e'i'o'u'y'au'ai'ei'oi</code></dt><dd><p class="zlm">.a.e.i.o.u.y.au.ai.ei.oi'a'e'i'o'u'y'au'ai'ei'oi</p><p><code>au</code>だけもう少し詰めたい。</p></dd>
+  <dt><code><a href="http://jbovlaste.lojban.org/dict/ci%27au%27u%27au%27i">mi pu zi finti zo ci'au'u'au'i ci'au'u'au'i ci'au'u'au'i nai</a></code></dt><dd><p class="zlm">mi pu zi finti zo ci'au'u'au'i ci'au'u'au'i ci'au'u'au'i nai</p></dd>
+</dl>
+<h3>単純な心態詞など</h3>
+<p>ブラウザやその他条件によつては繋げ文字(<span class="zlm">:</span>)やその他合字が発動してくれるかも（発動せずに潰れるかも）</p>
+<dl>
+  <dt><code>.a'a.a'e.a'i.a'o.a'u.<a href="http://jbovlaste.lojban.org/dict/a%27y">a'y</a></code></dt><dd><p class="zlm">.a'a.a'e.a'i.a'o.a'u</p></dd>
+  <dt><code>.i'a.i'e.i'i.i'o.i'u</code></dt><dd><p class="zlm">.i'a.i'e.i'i.i'o.i'u</p></dd>
+  <dt><code>.e'a.e'e.e'i.e'o.e'u</code></dt><dd><p class="zlm">.e'a.e'e.e'i.e'o.e'u</p></dd>
+  <dt><code>.<a href="http://jbovlaste.lojban.org/dict/i%27au">i'au</a> .ia .<a href="http://jbovlaste.lojban.org/dict/iau">iau</a> .ii</code></dt><dd><p class="zlm">.i'au .ia .iau .ii</p></dd>
+</dl>
+
+<h2>あとがき</h2>
+<p>改善や補完の余地があるので、制作ツールと思しき <a href="http://glyphrstudio.com/">Glyphr Studio</a> の使用感次第では挑戦してみたい。</p>
